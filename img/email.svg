@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="email" fill-rule="nonzero" fill="#9B9B9B">
+            <path d="M30,0 C13.4314078,0 0,13.4314078 0,30 C0,46.5685922 13.4314078,60 30,60 C46.5685922,60 60,46.5685922 60,30 C60,13.4314078 46.5685922,0 30,0 Z M48.0518447,16.6666019 L30.1463592,30.3991748 L12.2694175,16.6666019 L48.0518447,16.6666019 Z M12.1454854,20.4279612 L22.6785437,28.5190777 L12.1454854,39.0521359 L12.1454854,20.4279612 Z M12.1893204,43.3332524 L25.1244175,30.3981553 L30.1449029,34.254466 L35.157233,30.4103883 L48.0802427,43.3331068 L12.1893204,43.3331068 L12.1893204,43.3332524 Z M48.1456311,39.073835 L37.6048544,28.5330583 L48.1456311,20.448932 L48.1456311,39.073835 Z" id="email-9-icon"></path>
+        </g>
+    </g>
+</svg>
