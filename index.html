@@ -9,9 +9,6 @@
     <!--- LINKING OUR CSS FILE --->
     <link href='css/potfolio.css' type='text/css' rel='stylesheet' />
 
-
-
-
 </head>
 
 <body>
@@ -43,16 +40,32 @@
 
 
 
-        <section class="about" id="gradient">
+
+        <nav>
+            <div class="nav">
 
 
-            <nav>
-                <ul>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#portfolio">portfolio</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </nav>
+                <article>
+                    <img class="logo" src="img/navlogo.svg">
+                </article>
+
+
+                <article class="bar">
+                    <ul>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </article>
+
+
+            </div>
+        </nav>
+
+
+
+
+        <section id="about" class="about">
 
             <div class="wrap2">
                 <article class="start">
@@ -84,15 +97,18 @@
         </section>
 
 
+        <div id="portfolio" class="title">
+            <h2 class="title1">Portfolio</h2>
+        </div>
 
-        <section id="portfolio" class="wrapper">
+        <section class="wrapper">
 
 
 
             <article class="box1">
-                <h2 class="header">WEB DESIGN</h2>
-                <h2 class="header1">Essay Webpage</h2>
-                <p class="content">This project was to create a webpage based around a designer. I chose Stefan Sagmeister. The webpage had to resemble the chosen designer’s work.</p>
+                <h2 class="header">ILLUSTRATION</h2>
+                <h2 class="header1">Infograph</h2>
+                <p class="content">This project was to create an infographic based on world population. I chose religion as my theme and focused on Christianity since this is the world's largest religion.</p>
 
 
 
@@ -107,7 +123,7 @@
 
 
             <article class="box">
-                <img class="portfolio" src="img/sagmeister.png" alt="" />
+                <img class="portfolio" src="img/infograph.svg" alt="" />
             </article>
 
 
@@ -117,12 +133,12 @@
 
         <section class="wrapper">
 
-            <article class="box">
-                <img class="portfolio" src="img/app.png" alt="" />
+            <article class="box3">
+                <img class="portfolio1" src="img/screen.svg" alt="" />
             </article>
 
-            <article class="box1">
-                <h2 class="header">UI DESIGN</h2>
+            <article class="box3">
+                <h2 class="headerui">UI DESIGN</h2>
                 <h2 class="header2">Travel App</h2>
                 <p class="content2">The task for this project was to design an app based around 'Travel'. Broad Horizons was created to provide information on cities throughout the world, giving details such as weather and top ten activities.</p>
 
@@ -133,12 +149,16 @@
 
 
 
+
+
+
+
         </section>
 
         <section class="wrapper">
 
             <article class="box1">
-                <h2 class="header">BRANDING</h2>
+                <h2 class="headerui">BRANDING</h2>
                 <h2 class="header3">Personal Brand</h2>
                 <p class="content3">Based around creating a monogram, wordmark and visual marque to build my own personal brand. I have used my own individual style to create these elements.</p>
 
@@ -158,7 +178,7 @@
         <section id="contact" class="wrap">
 
             <article class="box2">
-                <p class="contact">Send me an email if you are interested in creating some exciting projects.</p>
+                <p class="contact">Send me an <a class="mail" href="mailto:Boyd-L12@email.ulster.ac.uk">email</a> if you are interested in creating some exciting projects.</p>
                 <p class="contact1">Check out more of my work on social media.</p>
 
 

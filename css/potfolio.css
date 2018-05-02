@@ -68,14 +68,14 @@ section {
 .wrapper {
     display: grid;
     grid-template-columns: 50vw 50vw;
-    /*grid-gap: 10px;*/
-    background-color: #fff;
+    background-color: #9B9B9B;
     color: #444;
+    height: 80vh;
 
 }
 
 .box1 {
-    background-color: #696969;
+    background-color: #9B9B9B;
     color: #fff;
     /*padding: 20px;*/
     font-size: 150%;
@@ -88,10 +88,17 @@ section {
     font-size: 150%;
 }
 
+.box3 {
+    background-color: #fff;
+    color: #444;
+    padding: 20px;
+    font-size: 150%;
+}
+
+
 .wrap {
     display: grid;
     grid-template-columns: ;
-    /*grid-gap: 10px;*/
     background-color: #fff;
     color: #444;
 
@@ -103,7 +110,7 @@ section {
     color: #fff;
     padding: 20px;
     font-size: 150%;
-    height: 85vh;
+    height: 70vh;
 }
 
 .wrap2 {
@@ -123,13 +130,29 @@ section {
     font-size: 150%;
 }
 
+.title {
+    margin: 2px 0 2px 0;
+}
+
+
+
+.nav {
+    display: grid;
+    grid-template-columns: 10vw 90vw;
+
+}
+
+
+
+
+
 
 /*------- HOME -------*/
 
 #home {
     margin: 20px auto;
     width: 710px;
-
+    height: 90vh;
 }
 
 .intro {
@@ -176,28 +199,40 @@ p.about {
 /*------ CONTACT ------*/
 
 p.contact {
-    font-size: 225%;
-    max-width: 1200px;
+    font-size: 180%;
+    max-width: 900px;
     text-align: center;
     color: #444;
-    margin: 80px 0 0 95px;
+    margin: 80px 0 0 260px;
 }
 
 p.contact1 {
-    font-size: 225%;
-    max-width: 1000px;
+    font-size: 180%;
+    max-width: 700px;
     text-align: center;
     color: #444;
-    margin: 80px 0 0 190px;
+    margin: 15px 0 0 340px;
 }
+
+#contact {
+    height: 60vh;
+
+}
+
+.mail {
+    text-decoration: underline;
+    color: #444;
+}
+
 
 
 /*----- PORTFOLIO ------*/
 
 .yellow {
     background-color: yellow;
-    margin: 60px 0 0 0;
-    padding-top: 2em;
+    margin: 40px 0 0 20px;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
 }
 
 
@@ -205,7 +240,7 @@ p.contact1 {
 a.button {
     color: #444;
     text-decoration: none;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     padding-left: 90px;
     font-size: 130%;
 }
@@ -214,7 +249,7 @@ a.button1 {
     color: #444;
     text-decoration: none;
     margin: 0 auto;
-    padding-left: 130px;
+    padding-left: 100px;
     font-size: 130%;
 }
 
@@ -222,24 +257,35 @@ a.button2 {
     color: #444;
     text-decoration: none;
     margin: 0 auto;
-    padding-left: 110px;
+    padding-left: 100px;
     font-size: 130%;
 }
 
 img.portfolio {
-    margin: 80px 0 0 95px;
+    width: 55%;
+    margin: 61px 0 0 130px;
 }
 
+img.portfolio1 {
+    width: 40%;
+    margin: 36px 0 0 200px;
+}
+
+
 img.branding {
-    margin: 130px 0 0 100px;
+    margin: 50px 0 0 100px;
 }
 
 h2.header {
-    margin: 105px 200px 0 0;
+    margin: 80px 130px 0 0;
+}
+
+h2.headerui {
+    margin: 60px 200px 0 0;
 }
 
 h2.header1 {
-    margin: 5px 158px 0 0;
+    margin: 5px 270px 0 0;
     font-weight: normal;
 }
 
@@ -254,14 +300,14 @@ h2.header3 {
 }
 
 p.content {
-    margin: 40px 0 0 89px;
+    margin: 40px 0 0 105px;
     font-size: 120%;
-    max-width: 500px;
+    max-width: 550px;
     text-align: left;
 }
 
 p.content2 {
-    margin: 40px 0 0 125px;
+    margin: 40px 0 0 110px;
     font-size: 120%;
     max-width: 500px;
     text-align: left;
@@ -347,7 +393,8 @@ div.social {
 
 /* --------------- NAVIGATION ----------------- */
 
-nav {
+div nav {
+    position: sticky;
     top: 0;
     left: 0;
     margin: 0;
@@ -381,6 +428,19 @@ nav a:visited {
 
 nav a:hover {
     color: #E9E707;
+}
+
+.logo {
+    width: 40%;
+    margin-left: 60px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    padding: 0;
+}
+
+.bar {
+    margin-left: -130px;
+    margin-top: 6px;
 }
 
 
