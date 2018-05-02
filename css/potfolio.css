@@ -443,10 +443,7 @@ nav a:hover {
     margin-top: 6px;
 }
 
-.navbar-fixed {
-    position: fixed;
-    top: -($nav-height);
-}
+
 
 /*----- ARROW ------*/
 
