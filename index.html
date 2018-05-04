@@ -8,11 +8,34 @@
 
     <!--- LINKING OUR CSS FILE --->
     <link href='css/potfolio.css' type='text/css' rel='stylesheet' />
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+
+    <script type="text/javascript">
+        window.onscroll = function() {
+            myFunction()
+        };
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+    </script>
+
+
+
+
 
 </head>
 
 <body>
-    <header></header>
+
 
     <div id="fullpage">
 
@@ -23,17 +46,17 @@
 
 
 
-        <section id="home" class="intro">
+        <header id="home" class="intro">
             <p>Welcome to my Portfolio!<br> UI Designer and Illustrator based in Belfast</p>
 
             <img class="wordmark" src="img/wordmark.png" alt="wordmark" />
 
             <div class="arrows"></div>
 
-        </section>
 
 
 
+        </header>
 
 
 
@@ -42,7 +65,7 @@
 
 
         <nav>
-            <div class="nav " id="navbar">
+            <div class="nav navbar" id="myHeader">
 
 
                 <article>
@@ -50,7 +73,7 @@
                 </article>
 
 
-                <article class="bar">
+                <article id="navbar" class="bar">
                     <ul>
                         <li><a href="#about">about</a></li>
                         <li><a href="#portfolio">portfolio</a></li>
@@ -61,7 +84,6 @@
 
             </div>
         </nav>
-
 
 
 
@@ -114,7 +136,7 @@
 
 
                 <div class="yellow">
-                    <a class="button" href="https://github.com/lucyboyd4/Essay"><strong>VIEW PROJECT</strong></a>
+                    <a class="button" href="https://www.behance.net/gallery/65133295/Christianity-Around-the-World-Infograph"><strong>VIEW PROJECT</strong></a>
                 </div>
 
 
@@ -200,6 +222,8 @@
 
         </section>
     </div>
+
+
 
 
 </body>
